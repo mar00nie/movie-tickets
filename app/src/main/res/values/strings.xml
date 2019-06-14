@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Movie Tickets</string>
+    <string name="main_heading">What\'s On</string>
+    <string name="movie_1">Avengers: Endgame</string>
+    <string name="movie_2">Pokémon: Detective Pikachu</string>
+    <string name="movie_3">Aladdin</string>
+    <string name="movie_4">Dumbo</string>
+    <string name="ticket_prices">Ticket Prices</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="reserve_tickets">Reserve Tickets</string>
+
+    <string name="contact_text1">Opening Times:</string>
+    <string name="contact_hours">Monday&#8211;Sunday \n 14:00&#8211;00:00</string>
+    <string name="contact_text2">Location:</string>
+    <string name="contact_addr">Glass House \n Cabot Circus \n Bristol \n BS1 3BX \n United Kingdom</string>
+    <string name="contact_desc">Got a question? Fill out the form below and we\'ll get in touch
+        with you as soon as possible. </string>
+    <string name="contact_name">Name *</string>
+    <string name="contact_email">Email *</string>
+    <string name="contact_subject">Subject</string>
+    <string name="contact_message">Message</string>
+    <string name="contact_send">Send</string>
+    <string name="contact_thanks">Thank you!</string>
+    <string name="contact_received">Your message has been received.</string>
+    <string name="contact_home">Home</string>
+
+    <string name="advance_text">Please note that you can only reserve tickets one day in advance
+        at the earliest. For same day tickets, please call <u>+44 871 220 1000</u>.</string>
+    <string name="choose_day">Select a day:</string>
+    <string name="choose_time">Select a time:</string>
+    <string name="choose_seats">Select your seats:</string>
+    <string name="label_screen">SCREEN</string>
+    <string name="number_seats">Number of seats selected:</string>
+    <string name="reserve_seats">Submit</string>
+    <string name="reserve_received">Your reservation has been received. \n\n Please arrive 30 minutes
+        before movie start to collect your tickets and make your payment.</string>
+    <string name="cancel_received">We\'re sorry that you do not wish to reserve tickets at this time.
+        \n\n We hope to see you again soon!</string>
+    <string name="toast_message">No times for this date yet</string>
+
+    <string name="avengers_time1">16:15</string>
+    <string name="avengers_time2">20:30</string>
+    <string name="pikachu_time1">14:45</string>
+    <string name="pikachu_time2">18:00</string>
+    <string name="aladdin_time1">17:45</string>
+    <string name="aladdin_time2">21:00</string>
+    <string name="dumbo_time1">15:15</string>
+    <string name="dumbo_time2">19:30</string>
+</resources>

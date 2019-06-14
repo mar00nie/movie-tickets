@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pop4Activity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/MovieTitle"
+            android:text="@string/movie_4" />
+
+        <TextView
+            android:id="@+id/dumbo_desc"
+            style="@style/MovieDescription" />
+
+        <Button
+            style="@style/StandardButton"
+            android:text="@string/reserve_tickets"
+            android:onClick="openDumboPage"/>
+
+    </LinearLayout>
+
+</ScrollView>

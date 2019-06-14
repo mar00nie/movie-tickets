@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#000000"
+    android:paddingLeft="36dp"
+    android:paddingRight="36dp" >
+
+    <TextView
+        android:id="@+id/demography"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        tools:text="Demography"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:layout_weight="1.5"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="end"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        tools:text="Price"/>
+
+</LinearLayout>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contact_main"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".DumboA1Activity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            style="@style/ReserveMessage" />
+
+        <TextView
+            android:id="@+id/dates"
+            style="@style/SelectLabels"
+            android:text="@string/choose_day" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingRight="2dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:background="#FFFFFF" >
+
+            <Spinner
+                android:id="@+id/spin_date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/times"
+            style="@style/SelectLabels"
+            android:textAlignment="center"
+            android:text="@string/choose_time" />
+
+        <FrameLayout
+            android:id="@+id/frame_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="2dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:background="#FFFFFF" >
+
+            <Spinner
+                android:id="@+id/spin_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/seats"
+            style="@style/SelectLabels"
+            android:text="@string/choose_seats" />
+
+        <TextView
+            style="@style/LabelScreen"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dbaA1"
+                style="@style/CustomButtonSeats"
+                android:text="A1"/>
+
+            <Button
+                android:id="@+id/dbaA2"
+                style="@style/CustomButtonSeats"
+                android:text="A2"/>
+
+            <Button
+                android:id="@+id/dbaA3"
+                style="@style/CustomButtonSeats"
+                android:text="A3"/>
+
+            <Button
+                android:id="@+id/dbaA4"
+                style="@style/CustomButtonSeats"
+                android:text="A4"/>
+
+            <Button
+                android:id="@+id/dbaA5"
+                style="@style/CustomButtonSeats"
+                android:text="A5"/>
+
+            <Button
+                android:id="@+id/dbaA6"
+                style="@style/CustomButtonSeats"
+                android:text="A6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dbaB1"
+                style="@style/CustomButtonSeats"
+                android:text="B1"/>
+
+            <Button
+                android:id="@+id/dbaB2"
+                style="@style/CustomButtonSeats"
+                android:text="B2"/>
+
+            <Button
+                android:id="@+id/dbaB3"
+                style="@style/CustomButtonSeats"
+                android:text="B3"/>
+
+            <Button
+                android:id="@+id/dbaB4"
+                style="@style/CustomButtonSeats"
+                android:text="B4"/>
+
+            <Button
+                android:id="@+id/dbaB5"
+                style="@style/CustomButtonSeats"
+                android:text="B5"/>
+
+            <Button
+                android:id="@+id/dbaB6"
+                style="@style/CustomButtonSeats"
+                android:text="B6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dbaC1"
+                style="@style/CustomButtonSeats"
+                android:text="C1"/>
+
+            <Button
+                android:id="@+id/dbaC2"
+                style="@style/CustomButtonSeats"
+                android:text="C2"/>
+
+            <Button
+                android:id="@+id/dbaC3"
+                style="@style/CustomButtonSeats"
+                android:text="C3"/>
+
+            <Button
+                android:id="@+id/dbaC4"
+                style="@style/CustomButtonSeats"
+                android:text="C4"/>
+
+            <Button
+                android:id="@+id/dbaC5"
+                style="@style/CustomButtonSeats"
+                android:text="C5"/>
+
+            <Button
+                android:id="@+id/dbaC6"
+                style="@style/CustomButtonSeats"
+                android:text="C6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dbaD1"
+                style="@style/CustomButtonSeats"
+                android:text="D1"/>
+
+            <Button
+                android:id="@+id/dbaD2"
+                style="@style/CustomButtonSeats"
+                android:text="D2"/>
+
+            <Button
+                android:id="@+id/dbaD3"
+                style="@style/CustomButtonSeats"
+                android:text="D3"/>
+
+            <Button
+                android:id="@+id/dbaD4"
+                style="@style/CustomButtonSeats"
+                android:text="D4"/>
+
+            <Button
+                android:id="@+id/dbaD5"
+                style="@style/CustomButtonSeats"
+                android:text="D6"/>
+
+            <Button
+                android:id="@+id/dbaD6"
+                style="@style/CustomButtonSeats"
+                android:text="D6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dbaE1"
+                style="@style/CustomButtonSeats"
+                android:text="E1"/>
+
+            <Button
+                android:id="@+id/dbaE2"
+                style="@style/CustomButtonSeats"
+                android:text="E2"/>
+
+            <Button
+                android:id="@+id/dbaE3"
+                style="@style/CustomButtonSeats"
+                android:text="E3"/>
+
+            <Button
+                android:id="@+id/dbaE4"
+                style="@style/CustomButtonSeats"
+                android:text="E4"/>
+
+            <Button
+                android:id="@+id/dbaE5"
+                style="@style/CustomButtonSeats"
+                android:text="E5"/>
+
+            <Button
+                android:id="@+id/dbaE6"
+                style="@style/CustomButtonSeats"
+                android:text="E6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/dbaF1"
+                style="@style/CustomButtonSeats"
+                android:text="F1"/>
+
+            <Button
+                android:id="@+id/dbaF2"
+                style="@style/CustomButtonSeats"
+                android:text="F2"/>
+
+            <Button
+                android:id="@+id/dbaF3"
+                style="@style/CustomButtonSeats"
+                android:text="F3"/>
+
+            <Button
+                android:id="@+id/dbaF4"
+                style="@style/CustomButtonSeats"
+                android:text="F4"/>
+
+            <Button
+                android:id="@+id/dbaF5"
+                style="@style/CustomButtonSeats"
+                android:text="F5"/>
+
+            <Button
+                android:id="@+id/dbaF6"
+                style="@style/CustomButtonSeats"
+                android:text="F6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                style="@style/GreenBox" />
+
+            <TextView
+                style="@style/Vacant" />
+
+            <TextView
+                style="@style/RedBox"/>
+
+            <TextView
+                style="@style/Occupied" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                style="@style/NumberSeats" />
+
+            <TextView
+                android:id="@+id/quantity"
+                style="@style/QuantitySeats" />
+
+        </LinearLayout>
+
+        <Button
+            style="@style/StandardButton"
+            android:text="@string/reserve_seats"
+            android:onClick="openResultPage" />
+
+    </LinearLayout>
+
+</ScrollView>
