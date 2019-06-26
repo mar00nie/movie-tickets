@@ -1,2 +1,2 @@
 # movie-tickets
-An Android app to reserve cinema seats
+Android app to select and reserve cinema seats
